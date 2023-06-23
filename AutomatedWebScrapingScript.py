@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import pandas as pd
 
 url = 'https://scrapingclub.com/exercise/list_basic/'
 response = requests.get(url)
@@ -30,4 +31,6 @@ for i in urls:
         itemPrice = soup.find('h5').text
         print(f"{count}, Price : {itemPrice}, Name :{itemName}")
         count = count + 1
+
+
 
