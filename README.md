@@ -1,5 +1,5 @@
 # webscarping_python_project
-I developed Automated Python Script for Scraping Data from Website using Python Functions and BeautifulSoup Script
+I developed Automated Python Script for Scraping Data from Website using Python Functions and BeautifulSoup package.
 
 Output: 
 * 1, Price : $34.99, Name :Fitted Dress
